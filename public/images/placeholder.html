@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电子书封面占位图</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .book-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .book-item {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .book-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .book-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .book-author {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .instructions {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>电子书封面占位图</h1>
+    
+    <div class="instructions">
+        <p>由于无法直接下载图片，您可以使用以下方法获取图书封面：</p>
+        <ol>
+            <li>右键点击下方的图片 → 选择"另存为..." → 保存到 public/images 目录中</li>
+            <li>或者使用任何图片编辑工具创建自己的封面图片，并保存到相应位置</li>
+            <li>确保文件名与代码中使用的名称一致（如 santi.jpg, bainiangudu.jpg 等）</li>
+        </ol>
+    </div>
+    
+    <div class="book-list">
+        <div class="book-item">
+            <img src="https://via.placeholder.com/300x450/6e8efb/ffffff?text=三体" alt="三体">
+            <div class="book-title">三体</div>
+            <div class="book-author">刘慈欣</div>
+            <div>文件名: santi.jpg</div>
+        </div>
+        
+        <div class="book-item">
+            <img src="https://via.placeholder.com/300x450/a777e3/ffffff?text=百年孤独" alt="百年孤独">
+            <div class="book-title">百年孤独</div>
+            <div class="book-author">加西亚·马尔克斯</div>
+            <div>文件名: bainiangudu.jpg</div>
+        </div>
+        
+        <div class="book-item">
+            <img src="https://via.placeholder.com/300x450/e74c3c/ffffff?text=人类简史" alt="人类简史">
+            <div class="book-title">人类简史</div>
+            <div class="book-author">尤瓦尔·赫拉利</div>
+            <div>文件名: renleijiashi.jpg</div>
+        </div>
+        
+        <div class="book-item">
+            <img src="https://via.placeholder.com/300x450/27ae60/ffffff?text=解忧杂货店" alt="解忧杂货店">
+            <div class="book-title">解忧杂货店</div>
+            <div class="book-author">东野圭吾</div>
+            <div>文件名: jieyouzahuodian.jpg</div>
+        </div>
+        
+        <div class="book-item">
+            <img src="https://via.placeholder.com/300x450/f39c12/ffffff?text=围城" alt="围城">
+            <div class="book-title">围城</div>
+            <div class="book-author">钱钟书</div>
+            <div>文件名: weicheng.jpg</div>
+        </div>
+        
+        <div class="book-item">
+            <img src="https://via.placeholder.com/300x450/3498db/ffffff?text=平凡的世界" alt="平凡的世界">
+            <div class="book-title">平凡的世界</div>
+            <div class="book-author">路遥</div>
+            <div>文件名: pingfandeshijie.jpg</div>
+        </div>
+        
+        <div class="book-item">
+            <img src="https://via.placeholder.com/300x450/9b59b6/ffffff?text=月亮与六便士" alt="月亮与六便士">
+            <div class="book-title">月亮与六便士</div>
+            <div class="book-author">毛姆</div>
+            <div>文件名: yueliangliubianci.jpg</div>
+        </div>
+        
+        <div class="book-item">
+            <img src="https://via.placeholder.com/300x450/34495e/ffffff?text=白夜行" alt="白夜行">
+            <div class="book-title">白夜行</div>
+            <div class="book-author">东野圭吾</div>
+            <div>文件名: baiyexing.jpg</div>
+        </div>
+    </div>
+</body>
+</html> 
